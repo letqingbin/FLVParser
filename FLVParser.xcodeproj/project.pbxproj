@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C402FC4E216062D4001D0D0E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C402FC4D216062D4001D0D0E /* main.cpp */; };
+		C402FC75216062DD001D0D0E /* BitBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C402FC55216062DD001D0D0E /* BitBuffer.cpp */; };
+		C402FC76216062DD001D0D0E /* FLVHeaderParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C402FC57216062DD001D0D0E /* FLVHeaderParser.cpp */; };
+		C402FC77216062DD001D0D0E /* FLVParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C402FC59216062DD001D0D0E /* FLVParser.cpp */; };
+		C402FC78216062DD001D0D0E /* FLVTag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C402FC5B216062DD001D0D0E /* FLVTag.cpp */; };
+		C402FC79216062DD001D0D0E /* FLVTagAudio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C402FC5D216062DD001D0D0E /* FLVTagAudio.cpp */; };
+		C402FC7A216062DD001D0D0E /* FLVTagVideo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C402FC5F216062DD001D0D0E /* FLVTagVideo.cpp */; };
+		C402FC7B216062DD001D0D0E /* PtrBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C402FC62216062DD001D0D0E /* PtrBuffer.cpp */; };
+		C402FC7C216062DD001D0D0E /* Sample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C402FC64216062DD001D0D0E /* Sample.cpp */; };
+		C402FC7D216062DD001D0D0E /* SPSParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C402FC66216062DD001D0D0E /* SPSParser.cpp */; };
+		C402FC7E216062DD001D0D0E /* Amf0.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C402FC69216062DD001D0D0E /* Amf0.cpp */; };
+		C402FC7F216062DD001D0D0E /* AMFParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C402FC73216062DD001D0D0E /* AMFParser.cpp */; };
+		C402FC83216062E3001D0D0E /* FLVTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C402FC81216062E3001D0D0E /* FLVTest.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C402FC48216062D4001D0D0E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C402FC4A216062D4001D0D0E /* FLVParser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FLVParser; sourceTree = BUILT_PRODUCTS_DIR; };
+		C402FC4D216062D4001D0D0E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C402FC55216062DD001D0D0E /* BitBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BitBuffer.cpp; sourceTree = "<group>"; };
+		C402FC56216062DD001D0D0E /* BitBuffer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BitBuffer.hpp; sourceTree = "<group>"; };
+		C402FC57216062DD001D0D0E /* FLVHeaderParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FLVHeaderParser.cpp; sourceTree = "<group>"; };
+		C402FC58216062DD001D0D0E /* FLVHeaderParser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FLVHeaderParser.hpp; sourceTree = "<group>"; };
+		C402FC59216062DD001D0D0E /* FLVParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FLVParser.cpp; sourceTree = "<group>"; };
+		C402FC5A216062DD001D0D0E /* FLVParser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FLVParser.hpp; sourceTree = "<group>"; };
+		C402FC5B216062DD001D0D0E /* FLVTag.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FLVTag.cpp; sourceTree = "<group>"; };
+		C402FC5C216062DD001D0D0E /* FLVTag.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FLVTag.hpp; sourceTree = "<group>"; };
+		C402FC5D216062DD001D0D0E /* FLVTagAudio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FLVTagAudio.cpp; sourceTree = "<group>"; };
+		C402FC5E216062DD001D0D0E /* FLVTagAudio.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FLVTagAudio.hpp; sourceTree = "<group>"; };
+		C402FC5F216062DD001D0D0E /* FLVTagVideo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FLVTagVideo.cpp; sourceTree = "<group>"; };
+		C402FC60216062DD001D0D0E /* FLVTagVideo.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FLVTagVideo.hpp; sourceTree = "<group>"; };
+		C402FC61216062DD001D0D0E /* Golomb.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Golomb.hpp; sourceTree = "<group>"; };
+		C402FC62216062DD001D0D0E /* PtrBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PtrBuffer.cpp; sourceTree = "<group>"; };
+		C402FC63216062DD001D0D0E /* PtrBuffer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PtrBuffer.hpp; sourceTree = "<group>"; };
+		C402FC64216062DD001D0D0E /* Sample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sample.cpp; sourceTree = "<group>"; };
+		C402FC65216062DD001D0D0E /* Sample.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Sample.hpp; sourceTree = "<group>"; };
+		C402FC66216062DD001D0D0E /* SPSParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SPSParser.cpp; sourceTree = "<group>"; };
+		C402FC67216062DD001D0D0E /* SPSParser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SPSParser.hpp; sourceTree = "<group>"; };
+		C402FC69216062DD001D0D0E /* Amf0.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Amf0.cpp; sourceTree = "<group>"; };
+		C402FC6A216062DD001D0D0E /* Amf0.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Amf0.hpp; sourceTree = "<group>"; };
+		C402FC6B216062DD001D0D0E /* Amf0Array.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Amf0Array.hpp; sourceTree = "<group>"; };
+		C402FC6C216062DD001D0D0E /* Amf0Boolean.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Amf0Boolean.hpp; sourceTree = "<group>"; };
+		C402FC6D216062DD001D0D0E /* Amf0Date.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Amf0Date.hpp; sourceTree = "<group>"; };
+		C402FC6E216062DD001D0D0E /* Amf0EcmaArray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Amf0EcmaArray.hpp; sourceTree = "<group>"; };
+		C402FC6F216062DD001D0D0E /* Amf0LongString.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Amf0LongString.hpp; sourceTree = "<group>"; };
+		C402FC70216062DD001D0D0E /* Amf0Number.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Amf0Number.hpp; sourceTree = "<group>"; };
+		C402FC71216062DD001D0D0E /* Amf0Object.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Amf0Object.hpp; sourceTree = "<group>"; };
+		C402FC72216062DD001D0D0E /* Amf0String.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Amf0String.hpp; sourceTree = "<group>"; };
+		C402FC73216062DD001D0D0E /* AMFParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AMFParser.cpp; sourceTree = "<group>"; };
+		C402FC74216062DD001D0D0E /* AMFParser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AMFParser.hpp; sourceTree = "<group>"; };
+		C402FC81216062E3001D0D0E /* FLVTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FLVTest.cpp; sourceTree = "<group>"; };
+		C402FC82216062E3001D0D0E /* FLVTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FLVTest.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C402FC47216062D4001D0D0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C402FC41216062D4001D0D0E = {
+			isa = PBXGroup;
+			children = (
+				C402FC4C216062D4001D0D0E /* FLVParser */,
+				C402FC4B216062D4001D0D0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C402FC4B216062D4001D0D0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C402FC4A216062D4001D0D0E /* FLVParser */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C402FC4C216062D4001D0D0E /* FLVParser */ = {
+			isa = PBXGroup;
+			children = (
+				C402FC80216062E3001D0D0E /* Test */,
+				C402FC68216062DD001D0D0E /* Amf0 */,
+				C402FC54216062DD001D0D0E /* FLV */,
+				C402FC4D216062D4001D0D0E /* main.cpp */,
+			);
+			path = FLVParser;
+			sourceTree = "<group>";
+		};
+		C402FC54216062DD001D0D0E /* FLV */ = {
+			isa = PBXGroup;
+			children = (
+				C402FC55216062DD001D0D0E /* BitBuffer.cpp */,
+				C402FC56216062DD001D0D0E /* BitBuffer.hpp */,
+				C402FC57216062DD001D0D0E /* FLVHeaderParser.cpp */,
+				C402FC58216062DD001D0D0E /* FLVHeaderParser.hpp */,
+				C402FC59216062DD001D0D0E /* FLVParser.cpp */,
+				C402FC5A216062DD001D0D0E /* FLVParser.hpp */,
+				C402FC5B216062DD001D0D0E /* FLVTag.cpp */,
+				C402FC5C216062DD001D0D0E /* FLVTag.hpp */,
+				C402FC5D216062DD001D0D0E /* FLVTagAudio.cpp */,
+				C402FC5E216062DD001D0D0E /* FLVTagAudio.hpp */,
+				C402FC5F216062DD001D0D0E /* FLVTagVideo.cpp */,
+				C402FC60216062DD001D0D0E /* FLVTagVideo.hpp */,
+				C402FC61216062DD001D0D0E /* Golomb.hpp */,
+				C402FC62216062DD001D0D0E /* PtrBuffer.cpp */,
+				C402FC63216062DD001D0D0E /* PtrBuffer.hpp */,
+				C402FC64216062DD001D0D0E /* Sample.cpp */,
+				C402FC65216062DD001D0D0E /* Sample.hpp */,
+				C402FC66216062DD001D0D0E /* SPSParser.cpp */,
+				C402FC67216062DD001D0D0E /* SPSParser.hpp */,
+			);
+			path = FLV;
+			sourceTree = "<group>";
+		};
+		C402FC68216062DD001D0D0E /* Amf0 */ = {
+			isa = PBXGroup;
+			children = (
+				C402FC69216062DD001D0D0E /* Amf0.cpp */,
+				C402FC6A216062DD001D0D0E /* Amf0.hpp */,
+				C402FC6B216062DD001D0D0E /* Amf0Array.hpp */,
+				C402FC6C216062DD001D0D0E /* Amf0Boolean.hpp */,
+				C402FC6D216062DD001D0D0E /* Amf0Date.hpp */,
+				C402FC6E216062DD001D0D0E /* Amf0EcmaArray.hpp */,
+				C402FC6F216062DD001D0D0E /* Amf0LongString.hpp */,
+				C402FC70216062DD001D0D0E /* Amf0Number.hpp */,
+				C402FC71216062DD001D0D0E /* Amf0Object.hpp */,
+				C402FC72216062DD001D0D0E /* Amf0String.hpp */,
+				C402FC73216062DD001D0D0E /* AMFParser.cpp */,
+				C402FC74216062DD001D0D0E /* AMFParser.hpp */,
+			);
+			path = Amf0;
+			sourceTree = "<group>";
+		};
+		C402FC80216062E3001D0D0E /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				C402FC81216062E3001D0D0E /* FLVTest.cpp */,
+				C402FC82216062E3001D0D0E /* FLVTest.hpp */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C402FC49216062D4001D0D0E /* FLVParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C402FC51216062D4001D0D0E /* Build configuration list for PBXNativeTarget "FLVParser" */;
+			buildPhases = (
+				C402FC46216062D4001D0D0E /* Sources */,
+				C402FC47216062D4001D0D0E /* Frameworks */,
+				C402FC48216062D4001D0D0E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLVParser;
+			productName = FLVParser;
+			productReference = C402FC4A216062D4001D0D0E /* FLVParser */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C402FC42216062D4001D0D0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = dKingbin;
+				TargetAttributes = {
+					C402FC49216062D4001D0D0E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C402FC45216062D4001D0D0E /* Build configuration list for PBXProject "FLVParser" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C402FC41216062D4001D0D0E;
+			productRefGroup = C402FC4B216062D4001D0D0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C402FC49216062D4001D0D0E /* FLVParser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C402FC46216062D4001D0D0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C402FC7C216062DD001D0D0E /* Sample.cpp in Sources */,
+				C402FC76216062DD001D0D0E /* FLVHeaderParser.cpp in Sources */,
+				C402FC78216062DD001D0D0E /* FLVTag.cpp in Sources */,
+				C402FC79216062DD001D0D0E /* FLVTagAudio.cpp in Sources */,
+				C402FC4E216062D4001D0D0E /* main.cpp in Sources */,
+				C402FC7D216062DD001D0D0E /* SPSParser.cpp in Sources */,
+				C402FC7A216062DD001D0D0E /* FLVTagVideo.cpp in Sources */,
+				C402FC7F216062DD001D0D0E /* AMFParser.cpp in Sources */,
+				C402FC75216062DD001D0D0E /* BitBuffer.cpp in Sources */,
+				C402FC7B216062DD001D0D0E /* PtrBuffer.cpp in Sources */,
+				C402FC83216062E3001D0D0E /* FLVTest.cpp in Sources */,
+				C402FC77216062DD001D0D0E /* FLVParser.cpp in Sources */,
+				C402FC7E216062DD001D0D0E /* Amf0.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C402FC4F216062D4001D0D0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C402FC50216062D4001D0D0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C402FC52216062D4001D0D0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BENRNW999J;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C402FC53216062D4001D0D0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BENRNW999J;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C402FC45216062D4001D0D0E /* Build configuration list for PBXProject "FLVParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C402FC4F216062D4001D0D0E /* Debug */,
+				C402FC50216062D4001D0D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C402FC51216062D4001D0D0E /* Build configuration list for PBXNativeTarget "FLVParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C402FC52216062D4001D0D0E /* Debug */,
+				C402FC53216062D4001D0D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C402FC42216062D4001D0D0E /* Project object */;
+}
